@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B8B4B75-BC21-4450-B2DD-388953F59D1E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DatabaseDesigner</RootNamespace>
+    <AssemblyName>DatabaseDesigner</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.JsonWebTokens.5.6.0\lib\net461\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Logging.5.6.0\lib\net461\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Tokens.5.6.0\lib\net461\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Common, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.VisualStudio.Services.Client.16.205.1\lib\net462\Microsoft.TeamFoundation.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Services.Common, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.VisualStudio.Services.Client.16.205.1\lib\net462\Microsoft.VisualStudio.Services.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Services.WebApi, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.VisualStudio.Services.Client.16.205.1\lib\net462\Microsoft.VisualStudio.Services.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\System.IdentityModel.Tokens.Jwt.5.6.0\lib\net461\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\Base\IControllable.cs" />
+    <Compile Include="Controllers\Base\DiagramController.cs" />
+    <Compile Include="Controllers\Base\ERAnalyser.cs" />
+    <Compile Include="Controllers\Base\NewOpenController.cs" />
+    <Compile Include="Controllers\Base\PrintBMP.cs" />
+    <Compile Include="Controllers\Base\TRKAnalyser.cs" />
+    <Compile Include="Controllers\ERControl\ERController.Actions.cs" />
+    <Compile Include="Controllers\ERControl\ERController.cs" />
+    <Compile Include="Controllers\ERControl\AttributeController.cs" />
+    <Compile Include="Controllers\ERControl\AttributeEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\ERControl\BranchController.cs" />
+    <Compile Include="Controllers\ERControl\BranchEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\ERControl\EntityController.cs" />
+    <Compile Include="Controllers\ERControl\EntityEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\ERControl\RelationController.cs" />
+    <Compile Include="Controllers\ERControl\RelationEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\ERControl\ERSceneController.cs" />
+    <Compile Include="Controllers\ERControl\UnionController.cs" />
+    <Compile Include="Controllers\ERControl\UnionEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\FDControl\FDVController.Actions.cs" />
+    <Compile Include="Controllers\FDControl\FDVController.cs" />
+    <Compile Include="Controllers\FDControl\IOScreenController.cs" />
+    <Compile Include="Controllers\FDControl\IOScreenEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\FDControl\FDSceneController.cs" />
+    <Compile Include="Controllers\FDControl\TaskController.cs" />
+    <Compile Include="Controllers\FDControl\TaskEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\Base\IItemController.cs" />
+    <Compile Include="Controllers\SaveRead\CSharp.cs" />
+    <Compile Include="Controllers\SaveRead\PHP.cs" />
+    <Compile Include="Controllers\Base\SceneController.KeyListner.cs" />
+    <Compile Include="Controllers\SaveRead\SQLSave.cs" />
+    <Compile Include="Controllers\SaveRead\DBRead.cs" />
+    <Compile Include="Controllers\SaveRead\DBSave.cs" />
+    <Compile Include="Controllers\SaveRead\ERRead.cs" />
+    <Compile Include="Controllers\SaveRead\ERSave.cs" />
+    <Compile Include="Controllers\SaveRead\FDRead.cs" />
+    <Compile Include="Controllers\SaveRead\FDSave.cs" />
+    <Compile Include="Controllers\SaveRead\TRKRead.cs" />
+    <Compile Include="Controllers\SaveRead\TRKSave.cs" />
+    <Compile Include="Controllers\TableEditControl\AttrView.Controller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\Base\PropertyNameObserver.cs" />
+    <Compile Include="Controllers\TableEditControl\PropertyEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\TableEditControl\TableEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer.Designer.cs">
+      <DependentUpon>Designer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ActionsRecord.cs" />
+    <Compile Include="Models\Base\EList.cs" />
+    <Compile Include="Models\Base\UList.cs" />
+    <Compile Include="Models\Database\Database.cs" />
+    <Compile Include="Models\Database\DataType.cs" />
+    <Compile Include="Models\Database\Property.cs" />
+    <Compile Include="Models\Database\Table.cs" />
+    <Compile Include="Models\EER\Attribute.cs" />
+    <Compile Include="Models\EER\Branch.cs" />
+    <Compile Include="Models\EER\Entity.cs" />
+    <Compile Include="Models\EER\ERDiagram.cs" />
+    <Compile Include="Models\EER\HasAttributes.cs" />
+    <Compile Include="Models\EER\NamedItem.cs" />
+    <Compile Include="Models\EER\Relation.cs" />
+    <Compile Include="Models\EER\Union.cs" />
+    <Compile Include="Models\IFD\FlowDiagram.cs" />
+    <Compile Include="Models\IFD\InOut.cs" />
+    <Compile Include="Models\IFD\IOScreen.cs" />
+    <Compile Include="Models\IFD\IOTask.cs" />
+    <Compile Include="Models\IFD\Task.cs" />
+    <Compile Include="Models\Preference\ERPreferences.cs" />
+    <Compile Include="Models\Preference\FDPreferences.cs" />
+    <Compile Include="Models\Session.cs" />
+    <Compile Include="Models\SQL\Create.cs" />
+    <Compile Include="Models\SQL\Delete.cs" />
+    <Compile Include="Models\SQL\Insert.cs" />
+    <Compile Include="Models\SQL\Select.cs" />
+    <Compile Include="Models\SQL\SelectX.cs" />
+    <Compile Include="Models\SQL\SQLOperation.cs" />
+    <Compile Include="Models\SQL\Update.cs" />
+    <Compile Include="Models\SQL\WriteSQL.cs" />
+    <Compile Include="Models\TRK\IEdit.cs" />
+    <Compile Include="Models\TRK\IStateful.cs" />
+    <Compile Include="Models\TRK\PropertyState.cs" />
+    <Compile Include="Models\TRK\TableState.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Scenes\Base\ColorPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\Base\Diagram.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\Base\InfoDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\Base\MouseListner.cs" />
+    <Compile Include="Views\Scenes\Base\OkCancelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\Base\OptionsPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\Base\PanelMover.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\Base\Scene.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\Base\SceneLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\Base\ScenePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\Base\SizePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\MScene\PipeLine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\MScene\MScene.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\DatabaseView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\FDPreferencesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\FlowDiagramView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\IOScreenEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\IOScreenOptions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\IOScreenTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\IOScreenView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\ScaleTool.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\FDScene.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\TaskEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\TaskItemView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\TaskOptions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\TaskView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\FDScene\Tools.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\AttributeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\AttributeOptions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\AttributeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\BranchEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\BranchOptions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\BranchView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\EntityEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\EntityOptions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\EntityPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\EntityView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\ERDiagramView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\ERPreferencesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\RelationEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\RelationOptions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\RelationView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\ERScene.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\SubEView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\ERTools.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\UnionEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\UnionOptions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\ERScene\UnionView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\SQLPreferencesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TEScene\AttrView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TEScene\PropertyEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TEScene\TableEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TEScene\TEScene.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TEScene\TableView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\DeleteView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\InsertView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\OrderView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\SQLScene.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\SelectItemView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\SelectView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\SelectXView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\TaskView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\UpdateView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\SQLScene\WriteSQLView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\ColoredItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\FKItemView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\ForgeinKeyView.Controller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\ForgeinKeyEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\ForgeinKeyEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\ForgeinKeyView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\PropertyEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\PropertyEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\PropertyView.Controller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\PropertyView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\RelationEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\RelationEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\RelationView.Controller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\RelationView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\RItemView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\TRKScene.Controller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\TRKPreferencesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\TRKScene.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\TableEdit.Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\TableEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\TableView.Controller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Scenes\TRKScene\TableView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\Arrow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\ArrowShape.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\Baziar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\CirText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\Line.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\LineShape.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\NLineShape.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\RecText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\RhText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\Shape.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\ShapeText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\StackPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\TransparentContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Source\TransparentPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Designer.resx">
+      <DependentUpon>Designer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\Scenes\Base\InfoDialog.resx">
+      <DependentUpon>InfoDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\Base\OkCancelForm.resx">
+      <DependentUpon>OkCancelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\Base\Scene.resx">
+      <DependentUpon>Scene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\MScene\MScene.resx">
+      <DependentUpon>MScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\FDScene\FDPreferencesEdit.resx">
+      <DependentUpon>FDPreferencesEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\FDScene\IOScreenEdit.resx">
+      <DependentUpon>IOScreenEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\FDScene\IOScreenTask.resx">
+      <DependentUpon>IOScreenTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\FDScene\FDScene.resx">
+      <DependentUpon>FDScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\FDScene\TaskEdit.resx">
+      <DependentUpon>TaskEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\FDScene\TaskOptions.resx">
+      <DependentUpon>TaskOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\ERScene\AttributeEdit.resx">
+      <DependentUpon>AttributeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\ERScene\BranchEdit.resx">
+      <DependentUpon>BranchEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\ERScene\EntityEdit.resx">
+      <DependentUpon>EntityEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\ERScene\EntityPicker.resx">
+      <DependentUpon>EntityPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\ERScene\ERPreferencesEdit.resx">
+      <DependentUpon>ERPreferencesEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\ERScene\RelationEdit.resx">
+      <DependentUpon>RelationEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\ERScene\ERScene.resx">
+      <DependentUpon>ERScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\ERScene\UnionEdit.resx">
+      <DependentUpon>UnionEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\SQLScene\DeleteView.resx">
+      <DependentUpon>DeleteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\SQLScene\InsertView.resx">
+      <DependentUpon>InsertView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\SQLScene\SQLPreferencesEdit.resx">
+      <DependentUpon>SQLPreferencesEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TEScene\AttrView.resx">
+      <DependentUpon>AttrView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TEScene\PropertyEdit.resx">
+      <DependentUpon>PropertyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TEScene\TableEdit.resx">
+      <DependentUpon>TableEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TEScene\TEScene.resx">
+      <DependentUpon>TEScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\SQLScene\SQLScene.resx">
+      <DependentUpon>SQLScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\SQLScene\SelectView.resx">
+      <DependentUpon>SelectView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\SQLScene\SelectXView.resx">
+      <DependentUpon>SelectXView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\SQLScene\UpdateView.resx">
+      <DependentUpon>UpdateView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\SQLScene\WriteSQLView.resx">
+      <DependentUpon>WriteSQLView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TRKScene\ForgeinKeyEdit.resx">
+      <DependentUpon>ForgeinKeyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TRKScene\PropertyEdit.resx">
+      <DependentUpon>PropertyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TRKScene\RelationEdit.resx">
+      <DependentUpon>RelationEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TRKScene\TRKPreferencesEdit.resx">
+      <DependentUpon>TRKPreferencesEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TRKScene\TRKScene.resx">
+      <DependentUpon>TRKScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Scenes\TRKScene\TableEdit.resx">
+      <DependentUpon>TableEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

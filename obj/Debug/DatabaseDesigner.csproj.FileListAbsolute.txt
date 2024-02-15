@@ -1,0 +1,316 @@
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.AssemblyReference.cache
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Properties.Resources.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.GenerateResource.cache
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.CoreCompileInputs.cache
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\DatabaseDesigner.exe.config
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\DatabaseDesigner.exe
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\DatabaseDesigner.pdb
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.exe
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.pdb
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.InfoDialog.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.IOScreenEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.TaskEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.AttributeEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.BranchEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.EntityEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.RelationEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.UnionEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene4.PropertyEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene4.AttrView.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.SelectView.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.SelectXView.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.UpdateView.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.WriteSQLView.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.TaskOptions.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.IOScreenTask.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.EntityPicker.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.OkCancelForm.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.PropertyEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.TableEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.TeamFoundation.Common.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Newtonsoft.Json.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\System.ValueTuple.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.TeamFoundation.Common.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.Common.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.WebApi.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\Newtonsoft.Json.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\System.ValueTuple.xml
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\cs\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\de\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\es\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\fr\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\it\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\ja\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\ko\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\pl\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\pt-BR\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\ru\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\tr\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\zh-Hans\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\zh-Hant\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\cs\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\de\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\es\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\fr\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\it\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\ja\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\ko\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\pl\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\ru\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\tr\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\cs\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\de\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\es\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\fr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\it\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\ja\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\ko\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\pl\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\ru\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\tr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.CopyComplete
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.ForgeinKeyEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.RelationEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.FDPreferencesEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.ERPreferencesEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Designer.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene1.MScene.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.FDScene.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.ERScene.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.DeleteView.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.InsertView.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.SQLScene.SQLPreferencesEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene4.TEScene.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.SQLScene.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TRKScene.TRKPreferencesEdit.resources
+C:\Users\أحمد حسام محمد فرج\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.TRKScene.resources
+D:\My Projects\DatabaseDesigner\bin\Debug\DatabaseDesigner.exe.config
+D:\My Projects\DatabaseDesigner\bin\Debug\DatabaseDesigner.exe
+D:\My Projects\DatabaseDesigner\bin\Debug\DatabaseDesigner.pdb
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.TeamFoundation.Common.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.Common.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.WebApi.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\Newtonsoft.Json.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\System.Net.Http.Formatting.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\System.ValueTuple.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.TeamFoundation.Common.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.Common.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.WebApi.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\Newtonsoft.Json.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\System.Net.Http.Formatting.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\System.ValueTuple.xml
+D:\My Projects\DatabaseDesigner\bin\Debug\cs\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\de\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\es\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\fr\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\it\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\ja\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\ko\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\pl\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\pt-BR\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\ru\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\tr\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\zh-Hans\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\zh-Hant\Microsoft.TeamFoundation.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\cs\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\de\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\es\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\fr\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\it\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\ja\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\ko\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\pl\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\ru\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\tr\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.Common.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\cs\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\de\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\es\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\fr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\it\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\ja\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\ko\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\pl\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\ru\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\tr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.WebApi.resources.dll
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.AssemblyReference.cache
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Designer.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Properties.Resources.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.InfoDialog.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.OkCancelForm.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene1.MScene.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.FDPreferencesEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.IOScreenEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.IOScreenTask.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.FDScene.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.TaskEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.TaskOptions.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.AttributeEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.BranchEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.EntityEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.EntityPicker.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.ERPreferencesEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.RelationEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.ERScene.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.UnionEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.DeleteView.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.InsertView.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.SQLScene.SQLPreferencesEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.SQLScene.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.SelectView.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.SelectXView.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.UpdateView.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.WriteSQLView.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.ForgeinKeyEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.PropertyEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.RelationEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TRKScene.TRKPreferencesEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.TRKScene.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.TableEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.GenerateResource.cache
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.CoreCompileInputs.cache
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.CopyComplete
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.exe
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.pdb
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.AssemblyReference.cache
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Designer.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Properties.Resources.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.InfoDialog.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.OkCancelForm.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene1.MScene.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.FDPreferencesEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.IOScreenEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.IOScreenTask.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.FDScene.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.TaskEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene2.TaskOptions.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.AttributeEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.BranchEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.EntityEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.EntityPicker.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.ERPreferencesEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.RelationEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.ERScene.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene3.UnionEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.DeleteView.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.InsertView.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.SQLScene.SQLPreferencesEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene4.AttrView.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene4.PropertyEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene4.TEScene.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.SQLScene.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.SelectView.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.SelectXView.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.UpdateView.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene5.WriteSQLView.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.ForgeinKeyEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.PropertyEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.RelationEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TRKScene.TRKPreferencesEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.TRKScene.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.TableEdit.resources
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.GenerateResource.cache
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.CoreCompileInputs.cache
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.exe
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.pdb
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\DatabaseDesigner.exe.config
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\DatabaseDesigner.exe
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\DatabaseDesigner.pdb
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.TeamFoundation.Common.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Newtonsoft.Json.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\System.ValueTuple.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.TeamFoundation.Common.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.Common.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Microsoft.VisualStudio.Services.WebApi.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\Newtonsoft.Json.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\System.ValueTuple.xml
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\cs\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\de\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\es\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\fr\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\it\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\ja\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\ko\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\pl\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\pt-BR\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\ru\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\tr\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\zh-Hans\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\zh-Hant\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\cs\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\de\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\es\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\fr\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\it\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\ja\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\ko\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\pl\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\ru\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\tr\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\cs\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\de\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\es\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\fr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\it\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\ja\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\ko\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\pl\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\ru\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\tr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.CopyComplete
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TEScene.AttrView.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TEScene.PropertyEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TEScene.TEScene.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TEScene.TableEdit.resources
