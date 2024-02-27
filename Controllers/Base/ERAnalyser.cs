@@ -73,7 +73,7 @@ namespace DatabaseDesigner.Controllers
 			(var many, var other) = SplitMany(relation.Entities);
 			Table table = new Table() { Name = string.Join(relation.Name, srcs) };
 			FillProperties(table, relation.Attributes);
-			if(many.Count <= 1 && !table.Keys.Any())
+			if(many.Count <= 1 && !table.Keys.Any() && !relation.Weak)
 			{
 				Table target;
 				if (many.Any())
