@@ -68,15 +68,14 @@ namespace DatabaseDesigner.Views.Scenes.Scene6
 		public void Set(TableState state)
 		{
 			TName.Text = state.Name;
-			BackColor = state.PBackColor;
 			TName.BackColor = state.TBackColor;
 			TName.ForeColor = state.TForColor;
 			AddProperty.ForeColor = state.TBackColor;
 			Color m = state.TBackColor;
 			Mover.BackColor = Color.FromArgb(Math.Max(m.R - 50, 0), Math.Max(m.G - 50, 0), Math.Max(m.B - 50, 0));
 			PBox.ForeColor = state.PForColor;
-
-		}
+			PBox.BackColor = state.PBackColor;
+        }
 
 		public void Update(TableState state)
 		{
@@ -97,7 +96,7 @@ namespace DatabaseDesigner.Views.Scenes.Scene6
 				Name = TName.Text,
 				TBackColor = TName.BackColor,
 				TForColor = TName.ForeColor,
-				PBackColor = BackColor,
+				PBackColor = PBox.BackColor,
 				PForColor = PBox.ForeColor
 			};
 		}

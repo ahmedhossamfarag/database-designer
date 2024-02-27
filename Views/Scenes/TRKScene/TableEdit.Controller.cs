@@ -30,7 +30,7 @@ namespace DatabaseDesigner.Views.Scenes.Scene6
 			TName.Text = view.TName.Text;
 			TBackColor.BackColor = view.TName.BackColor;
 			TForColor.BackColor = view.TName.ForeColor;
-			PBackColor.BackColor = view.BackColor;
+			PBackColor.BackColor = view.PBox.BackColor;
 			PForColor.BackColor = view.PBox.ForeColor;
 		}
 

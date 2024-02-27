@@ -281,6 +281,7 @@ namespace DatabaseDesigner.Controllers
 
         private void Watchkeys(Table t, Table des, string prfx = "", bool key = false)
         {
+			if(t == des)  return;
 			t.Keys.ItemAdded += (k) =>
 			{
 				var fk = ForgienKey(k, t, key, prefix: prfx);
@@ -291,8 +292,9 @@ namespace DatabaseDesigner.Controllers
         }
 
 		private void WatchKeysOrg(Table table, List<Property> des, bool dup = false)
-		{
-			table.Keys.ItemAdded += k => des.Add(k.Clone(table, dup: dup));
+        {
+			if(des == table.Keys) return;
+            table.Keys.ItemAdded += k => des.Add(k.Clone(table, dup: dup));
 		}
 
         public Property PropertyOf(Attribute a, Table t, bool make_key = false, string pre = "")

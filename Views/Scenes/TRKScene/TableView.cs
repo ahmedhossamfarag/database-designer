@@ -62,6 +62,7 @@ namespace DatabaseDesigner.Views.Scenes.Scene6
 			this.PBox.TabIndex = 2;
 			this.PBox.ControlAdded += PBox_ControlAdded;
 			this.PBox.ControlRemoved += PBox_ControlRemoved;
+            this.PBox.BackColorChanged += PBox_BackColorChanged;
 			// 
 			// AddProperty
 			// 
@@ -92,8 +93,13 @@ namespace DatabaseDesigner.Views.Scenes.Scene6
 
 		}
 
-		
-		private void TName_Click(object sender, EventArgs e)
+        private void PBox_BackColorChanged(object sender, EventArgs e)
+        {
+            foreach(Control c in this.PBox.Controls)
+				c.BackColor = this.PBox.BackColor;
+        }
+
+        private void TName_Click(object sender, EventArgs e)
 		{
 			Scene.TableClick(this);
 		}

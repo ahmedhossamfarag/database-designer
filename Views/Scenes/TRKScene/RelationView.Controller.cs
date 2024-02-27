@@ -19,7 +19,8 @@ namespace DatabaseDesigner.Views.Scenes.Scene6
 			table1.Move += Table_Move;
 			table2.Move += Table_Move;
 			table1.Relations.Add(table2, this);
-			table2.Relations.Add(table1, this);
+			if(table1 != table2)
+				table2.Relations.Add(table1, this);
 			Scene.FKRContainer.Controls.Add(RItemView);
 			Scene.RViews.Add(this);
 		}

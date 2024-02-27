@@ -202,7 +202,6 @@ D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.T
 D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.Scene6.TableEdit.resources
 D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.GenerateResource.cache
 D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.CoreCompileInputs.cache
-D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.CopyComplete
 D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.exe
 D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.pdb
 C:\Users\a1b2c\source\repos\DatabaseDesigner\obj\Debug\DatabaseDesigner.csproj.AssemblyReference.cache
@@ -314,3 +313,4 @@ D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TEScene.
 D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TEScene.PropertyEdit.resources
 D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TEScene.TEScene.resources
 D:\My Projects\DatabaseDesigner\obj\Debug\DatabaseDesigner.Views.Scenes.TEScene.TableEdit.resources
+D:\My Projects\DatabaseDesigner\obj\Debug\Database.7D7722B0.Up2Date
