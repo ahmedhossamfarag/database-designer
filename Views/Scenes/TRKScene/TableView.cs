@@ -62,6 +62,7 @@ namespace DatabaseDesigner.Views.Scenes.Scene6
 			this.PBox.TabIndex = 2;
 			this.PBox.ControlAdded += PBox_ControlAdded;
 			this.PBox.ControlRemoved += PBox_ControlRemoved;
+            this.PBox.ForeColorChanged += PBox_ForeColorChanged;
             this.PBox.BackColorChanged += PBox_BackColorChanged;
 			// 
 			// AddProperty
@@ -92,6 +93,15 @@ namespace DatabaseDesigner.Views.Scenes.Scene6
 			this.TName.DoubleClick += TName_DoubleClick;
 
 		}
+
+        private void PBox_ForeColorChanged(object sender, EventArgs e)
+        {
+            foreach (Control c in this.PBox.Controls)
+			{
+                c.ForeColor = this.PBox.ForeColor;
+				c.Refresh();
+            }
+        }
 
         private void PBox_BackColorChanged(object sender, EventArgs e)
         {

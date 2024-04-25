@@ -74,7 +74,8 @@ namespace DatabaseDesigner.Views.Scenes.Scene6
 			this.PType.Click += PropertyView_Click;
 		}
 
-		private void PropertyView_Click(object sender, EventArgs e)
+
+        private void PropertyView_Click(object sender, EventArgs e)
 		{
 			Scene.PropertyClick(this);
 		}
