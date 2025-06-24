@@ -1,10 +1,23 @@
-﻿# Database Designer
-- Build EER diagrams and and automatically convert them into Relational
-Tables.
-- Build Flow Diagrams
-- Build Database Tables and Relations directly
-- Generate basic SQL commands
-- Save, open, and edit files
+# Database Designer
+
+**Database Designer** is a tool for visually designing and managing database structures. It provides the following features:
+
+## Features
+
+- **EER Diagram Builder**  
+  Create Enhanced Entity-Relationship diagrams and automatically convert them into relational table structures.
+
+- **Flow Diagram Support**  
+  Design and visualize flow diagrams to better understand data or process flows.
+
+- **Direct Table & Relation Creation**  
+  Build database tables and define relationships manually within the interface.
+
+- **SQL Command Generation**  
+  Automatically generate basic SQL statements (e.g., `SELECT`, `INSERT`, etc.) from your designs.
+
+- **Project Management**  
+  Save, open, and edit your design projects with ease.
 
 ## Screenshots
 ![main](Screenshots/main.png)
