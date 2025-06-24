@@ -625,6 +625,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="readMe.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -640,6 +641,13 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Screenshots\EER example.gif" />
+    <Content Include="Screenshots\FD scene.png" />
+    <Content Include="Screenshots\main.png" />
+    <Content Include="Screenshots\Sql scene.png" />
+    <Content Include="Screenshots\TRK scene.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
